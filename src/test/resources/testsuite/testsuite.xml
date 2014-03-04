@@ -1,0 +1,20 @@
+<suite name="Coreblue"  thread-count="5" verbose="3">
+
+	<test name="Coreblue" junit="false" preserve-order="true">
+		<parameter name="device" value="android" />
+		<parameter name="version" value="4.2.2" />
+		<parameter name="platform" value="MAC" />
+		<parameter name="package" value="com.bestbuy.coreblue" />
+		<parameter name="activity" value="ui.ActivitySplash" />
+		<parameter name="app" value="/Users/chelladurai/Desktop/core/CoreBlue.apk" />
+		<parameter name="serverip" value="127.0.0.1" />
+		<classes>
+			<class name="com.bestbuy.coreblue.testcases.CoreBlueTest" />
+			<methods>
+				<include name="testSetStoreSetup"></include>
+				<include name="testLogin"></include>
+				<include name="testSearch"></include>
+			</methods>
+		</classes>
+	</test>
+</suite>

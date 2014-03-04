@@ -1,0 +1,17 @@
+<identifiers>
+    <!-- Store Number and Store Login Identifiers -->
+    <storeNumber type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/relative[1]/linear[1]/textfield[1]</storeNumber>
+    <setButton type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/button[1]</setButton>
+    <storeConfirm type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/linear[2]/button[2]</storeConfirm>
+    
+    <!-- Login Identifiers -->
+    <loginUsername type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/relative[1]/linear[1]/textfield[1]</loginUsername>
+    <loginPassword type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/relative[2]/linear[1]/textfield[1]</loginPassword>
+    <loginButton type="xpath">//linear[1]/window[1]/linear[1]/relative[1]/button[1]</loginButton>
+   
+    <!-- Searach Value -->
+    <searchAppointmentButton type="xpath">//linear[1]/window[1]/window[1]/linear[1]/window[1]/window[1]/relative[1]/button[1]</searchAppointmentButton>
+    <searchText type="xpath">//linear[1]/window[1]/window[1]/linear[1]/window[1]/window[1]/linear[1]/linear[1]/relative[1]/linear[1]/textfield[1]</searchText>
+    <searchButton type="xpath">//linear[1]/window[1]/window[1]/linear[1]/window[1]/window[1]/linear[1]/linear[1]/button[1]</searchButton>
+   
+</identifiers>
